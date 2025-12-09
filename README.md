@@ -5,7 +5,7 @@
 
 ### 二、修改 Pictures 页面
 1.  **主页卡片**：改 `src/config/site-content.json` 的 `artImages` 数组
-2.  **画廊列表**：改 `src/app/pictures/list.json` 的图片信息
+2.  **画廊列表**：改 `src/app/pictures/list.json` ，`public\images\pictures`的图片信息
 3.  Git 流程同上，commit 备注对应修改内容
 
 ### 三、新增/修改博客
