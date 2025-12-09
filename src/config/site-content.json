@@ -23,6 +23,10 @@
 	],
 	"artImages": [
 		{
+			"id": "dollar",
+			"url": "/images/art/dollar.png"
+		},
+		{
 			"id": "cat",
 			"url": "/images/art/cat.png"
 		},
@@ -31,7 +35,7 @@
 			"url": "/images/art/a46372ff45bc5524.jpg"
 		}
 	],
-	"currentArtImageId": "a46372ff45bc5524",
+	"currentArtImageId": "dollar",
 	"backgroundImages": [
 		{
 			"id": "",
@@ -55,7 +59,7 @@
 			"order": 1
 		},
 		{
-			"id": "button-1765277911340",
+			"id": "wechat",
 			"type": "wechat",
 			"value": "15650837929",
 			"label": "",
