@@ -17,7 +17,7 @@ export default function ResearchInterestsCard() {
 
 	return (
 		<HomeDraggableLayer cardKey='researchInterestsCard' x={x} y={y} width={styles.width} height={styles.height}>
-			<Card order={styles.order} width={styles.width} height={styles.height} x={x} y={y} className="flex flex-col justify-center px-8">
+			<Card order={styles.order} width={styles.width} height={styles.height} x={x} y={y} className="flex flex-col justify-center px-8 max-sm:static max-sm:translate-0 max-sm:w-full max-sm:h-auto max-sm:py-6">
 				<h3 className='text-xl font-bold text-gray-800 mb-6'>
 					Research Interests
 				</h3>
