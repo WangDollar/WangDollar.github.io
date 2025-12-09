@@ -157,9 +157,13 @@ export default function Page() {
 								<p className='text-secondary text-lg'>{data.description}</p>
 							</motion.div>
 
-									<div className='prose prose-sm max-w-none text-left'>
-										{content}
-									</div>
+							{loading ? (
+								<div className='text-secondary text-center'>加载中...</div>
+							) : (
+								<motion.div initial={{ opacity: 0, scale: 0.8 }} animate={{ opacity: 1, scale: 1 }} className='card relative p-6'>
+									<div className='prose prose-sm max-w-none'>{content}</div>
+								</motion.div>
+							)}
 						</>
 					)}
 
