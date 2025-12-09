@@ -26,6 +26,7 @@
 	},
 	"researchInterestsCard": {
 		"width": 350,
+		"height": "auto",
 		"order": 5,
 		"offsetX": null,
 		"offsetY": null,

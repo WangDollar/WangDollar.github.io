@@ -17,8 +17,8 @@ export default function ResearchInterestsCard() {
 	const interests = ['AI for Science', 'Large Language Models', 'Agentic Reinforcement Learning']
 
 	return (
-		<HomeDraggableLayer cardKey='researchInterestsCard' x={x} y={y} width={styles.width}>
-			<Card order={styles.order} width={styles.width} x={x} y={y}>
+		<HomeDraggableLayer cardKey='researchInterestsCard' x={x} y={y} width={styles.width} height={styles.height}>
+			<Card order={styles.order} width={styles.width} height={styles.height} x={x} y={y}>
 				<h3 className='mb-2 text-lg font-semibold'>Research Interests</h3>
 				<ul className='flex flex-col gap-1'>
 					{interests.map(interest => (
