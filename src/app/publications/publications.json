@@ -1,0 +1,82 @@
+[
+	{
+		"id": "qcbench",
+		"title": "QCBench: Evaluating large language models on domain-specific Quantitative Chemistry",
+		"authors": [
+			{ "name": "Jiaqing Xie" },
+			{ "name": "Weida Wang" },
+			{ "name": "Ben Gao" },
+			{ "name": "Zhuo Yang", "highlight": true },
+			{ "name": "Haiyuan Wan" },
+			{ "name": "Shufei Zhang" },
+			{ "name": "Tianfan Fu" },
+			{ "name": "Yuqiang Li†" }
+		],
+		"venue": "Journal of Chemical Information and Modeling 2025",
+		"image": "/images/publications/qcbench.png",
+		"links": [
+			{ "label": "DOI", "url": "#" },
+			{ "label": "Code", "url": "#" },
+			{ "label": "Abstract", "url": "#" },
+			{ "label": "BibTeX", "url": "#", "isBibtex": true }
+		],
+		"bibtex": "@article{Xie2025-et,\n  title = {QCBench: Evaluating large language models on domain-specific Quantitative Chemistry},\n  author = {Jiaqing Xie and Weida Wang and Ben Gao and Zhuo Yang and Haiyuan Wan and Shufei Zhang and Tianfan Fu and Yuqiang Li},\n  journal = {Journal of Chemical Information and Modeling},\n  year = {2025},\n  month = {nov},\n  volume = {65},\n  number = {22},\n  pages = {12268-12278},\n  doi = {10.1021/acs.jcim.5b01455},\n  langid = {english}\n}"
+	},
+	{
+		"id": "molspectllm",
+		"title": "MolSpectLLM: A Molecular Foundation Model Bridging Spectroscopy, Molecule Elucidation, and 3D Structure Generation",
+		"authors": [
+			{ "name": "Shuaike Shen" },
+			{ "name": "Jiaqing Xie" },
+			{ "name": "Zhuo Yang", "highlight": true },
+			{ "name": "Antong Zhang" },
+			{ "name": "Shuzhou Sun" },
+			{ "name": "Ben Gao" },
+			{ "name": "Tianfan Fu" },
+			{ "name": "Biqing Qi" },
+			{ "name": "Yuqiang Li†" }
+		],
+		"venue": "2025",
+		"image": "/images/publications/molspectllm.png",
+		"links": [
+			{ "label": "Preprint", "url": "#" },
+			{ "label": "Code", "url": "#" },
+			{ "label": "Abstract", "url": "#" },
+			{ "label": "BibTeX", "url": "#", "isBibtex": true }
+		],
+		"bibtex": "@article{Shen2025,\n  title = {MolSpectLLM: A Molecular Foundation Model Bridging Spectroscopy, Molecule Elucidation, and 3D Structure Generation},\n  author = {Shuaike Shen and Jiaqing Xie and Zhuo Yang and Antong Zhang and Shuzhou Sun and Ben Gao and Tianfan Fu and Biqing Qi and Yuqiang Li},\n  year = {2025}\n}"
+	},
+	{
+		"id": "spectrumworld",
+		"title": "SpectrumWorld: Artificial Intelligence Foundation for Spectroscopy",
+		"authors": [
+			{ "name": "Zhuo Yang", "highlight": true },
+			{ "name": "Jiaqing Xie" },
+			{ "name": "Shuaike Shen" },
+			{ "name": "Daolang Wang" },
+			{ "name": "Yeyun Chen" },
+			{ "name": "Ben Gao" },
+			{ "name": "Shuzhou Sun" },
+			{ "name": "Biqing Qi" },
+			{ "name": "Dongzhan Zhou" },
+			{ "name": "Lei Bai" },
+			{ "name": "Linjiang Chen" },
+			{ "name": "Shufei Zhang" },
+			{ "name": "Qinying Gu" },
+			{ "name": "Jun Jiang" },
+			{ "name": "Tianfan Fu" },
+			{ "name": "Yuqiang Li†" }
+		],
+		"venue": "2025",
+		"image": "/images/publications/spectrumworld.png",
+		"links": [
+			{ "label": "Preprint", "url": "#" },
+			{ "label": "Code", "url": "#" },
+			{ "label": "Dataset", "url": "#" },
+			{ "label": "Abstract", "url": "#" },
+			{ "label": "BibTeX", "url": "#", "isBibtex": true }
+		],
+		"bibtex": "@article{Yang2025,\n  title = {SpectrumWorld: Artificial Intelligence Foundation for Spectroscopy},\n  author = {Zhuo Yang and others},\n  year = {2025}\n}"
+	}
+]
+
