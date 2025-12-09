@@ -24,7 +24,7 @@ const list = [
 	{
 		icon: ScrollOutlineSVG,
 		iconActive: ScrollFilledSVG,
-		label: '近期文章',
+		label: 'News',
 		href: '/blog'
 	},
 	{
@@ -36,7 +36,7 @@ const list = [
 	{
 		icon: AboutOutlineSVG,
 		iconActive: AboutFilledSVG,
-		label: '关于网站',
+		label: 'About',
 		href: '/about'
 	}
 ]
