@@ -24,9 +24,9 @@
 		"offsetY": null,
 		"enabled": true
 	},
-	"researchInterestsCard": {
+	"calendarCard": {
 		"width": 350,
-		"height": "auto",
+		"height": 286,
 		"order": 5,
 		"offsetX": null,
 		"offsetY": null,

@@ -6,14 +6,14 @@ import { cn } from '@/lib/utils'
 import { useEffect, useState } from 'react'
 import { useSize } from '@/hooks/use-size'
 
-interface Props extends React.HTMLAttributes<HTMLDivElement> {
-	children: React.ReactNode
+interface Props {
 	className?: string
-	width?: number
-	height?: number | 'auto'
-	order?: number
+	order: number
+	width: number
+	height?: number
 	x: number
 	y: number
+	children: React.ReactNode
 }
 
 export default function Card({ children, order, width, height, x, y, className }: Props) {
@@ -35,18 +35,7 @@ export default function Card({ children, order, width, height, x, y, className }
 	if (show)
 		return (
 			<motion.div
-				className={cn(
-					'card-bg absolute cursor-grab rounded-2xl p-4 shadow-lg active:cursor-grabbing',
-					'max-sm:relative max-sm:w-[350px] max-sm:!transform-none',
-					className,
-				)}
-				style={{
-					width: width ? `${width}px` : 'auto',
-					height: height === 'auto' ? 'auto' : height ? `${height}px` : 'auto',
-					zIndex: order,
-					x,
-					y,
-				}}
+				className={cn('card', className)}
 				initial={{ opacity: 0, scale: 0.6, left: x, top: y, width, height }}
 				animate={{ opacity: 1, scale: 1, left: x, top: y, width, height }}
 				whileHover={{ scale: 1.05 }}
