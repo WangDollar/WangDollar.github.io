@@ -3,7 +3,7 @@
 import HiCard from '@/app/(home)/hi-card'
 import ArtCard from '@/app/(home)/art-card'
 import ClockCard from '@/app/(home)/clock-card'
-import CalendarCard from '@/app/(home)/calendar-card'
+import ResearchInterestsCard from '@/app/(home)/research-interests-card'
 import MusicCard from '@/app/(home)/music-card'
 import SocialButtons from '@/app/(home)/social-buttons'
 import ShareCard from '@/app/(home)/share-card'
@@ -76,7 +76,7 @@ export default function Home() {
 				{cardStyles.artCard?.enabled !== false && <ArtCard />}
 				{cardStyles.hiCard?.enabled !== false && <HiCard />}
 				{!maxSM && cardStyles.clockCard?.enabled !== false && <ClockCard />}
-				{!maxSM && cardStyles.calendarCard?.enabled !== false && <CalendarCard />}
+				{!maxSM && cardStyles.researchInterestsCard?.enabled !== false && <ResearchInterestsCard />}
 				{!maxSM && cardStyles.musicCard?.enabled !== false && <MusicCard />}
 				{cardStyles.socialButtons?.enabled !== false && <SocialButtons />}
 				{!maxSM && cardStyles.shareCard?.enabled !== false && <ShareCard />}
