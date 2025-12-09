@@ -76,8 +76,8 @@ export default function Home() {
 				{cardStyles.artCard?.enabled !== false && <ArtCard />}
 				{cardStyles.hiCard?.enabled !== false && <HiCard />}
 				{!maxSM && cardStyles.clockCard?.enabled !== false && <ClockCard />}
-				{!maxSM && cardStyles.researchInterestsCard?.enabled !== false && <ResearchInterestsCard />}
-				{!maxSM && cardStyles.musicCard?.enabled !== false && <MusicCard />}
+				{cardStyles.researchInterestsCard?.enabled !== false && <ResearchInterestsCard />}
+				{cardStyles.musicCard?.enabled !== false && <MusicCard />}
 				{cardStyles.socialButtons?.enabled !== false && <SocialButtons />}
 				{!maxSM && cardStyles.shareCard?.enabled !== false && <ShareCard />}
 				{cardStyles.articleCard?.enabled !== false && <AritcleCard />}
