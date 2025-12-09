@@ -36,22 +36,8 @@ export default function Card({ children, order, width, height, x, y, className }
 		return (
 			<motion.div
 				className={cn('card', className)}
-				initial={{
-					opacity: 0,
-					scale: 0.6,
-					left: maxSM && init ? 0 : x,
-					top: maxSM && init ? 0 : y,
-					width: maxSM && init ? '100%' : width,
-					height: maxSM && init ? 'auto' : height
-				}}
-				animate={{
-					opacity: 1,
-					scale: 1,
-					left: maxSM && init ? 0 : x,
-					top: maxSM && init ? 0 : y,
-					width: maxSM && init ? '100%' : width,
-					height: maxSM && init ? 'auto' : height
-				}}
+				initial={{ opacity: 0, scale: 0.6, left: x, top: y, width, height }}
+				animate={{ opacity: 1, scale: 1, left: x, top: y, width, height }}
 				whileHover={{ scale: 1.05 }}
 				whileTap={{ scale: 0.95 }}>
 				{children}

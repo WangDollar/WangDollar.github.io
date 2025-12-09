@@ -75,13 +75,13 @@ export default function Home() {
 			<div className='max-sm:flex max-sm:flex-col max-sm:items-center max-sm:gap-6 max-sm:pt-28 max-sm:pb-20'>
 				{cardStyles.artCard?.enabled !== false && <ArtCard />}
 				{cardStyles.hiCard?.enabled !== false && <HiCard />}
-				{cardStyles.clockCard?.enabled !== false && <ClockCard />}
-				{cardStyles.researchInterestsCard?.enabled !== false && <ResearchInterestsCard />}
-				{cardStyles.musicCard?.enabled !== false && <MusicCard />}
+				{!maxSM && cardStyles.clockCard?.enabled !== false && <ClockCard />}
+				{!maxSM && cardStyles.researchInterestsCard?.enabled !== false && <ResearchInterestsCard />}
+				{!maxSM && cardStyles.musicCard?.enabled !== false && <MusicCard />}
 				{cardStyles.socialButtons?.enabled !== false && <SocialButtons />}
-				{cardStyles.shareCard?.enabled !== false && <ShareCard />}
+				{!maxSM && cardStyles.shareCard?.enabled !== false && <ShareCard />}
 				{cardStyles.articleCard?.enabled !== false && <AritcleCard />}
-				{cardStyles.writeButtons?.enabled !== false && <WriteButtons />}
+				{!maxSM && cardStyles.writeButtons?.enabled !== false && <WriteButtons />}
 				{cardStyles.likePosition?.enabled !== false && <LikePosition />}
 			</div>
 			<ConfigDialog open={configDialogOpen} onClose={() => setConfigDialogOpen(false)} />
