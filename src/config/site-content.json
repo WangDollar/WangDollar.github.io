@@ -1,11 +1,11 @@
 {
 	"meta": {
-		"title": "YYsuni",
-		"description": "YYsuni 的个人博客，记录前端开发、探索、笔记。前端 UI 更新代码仓库。",
-		"username": "Suni"
+		"title": "Dollar",
+		"description": "Record",
+		"username": "Dollar"
 	},
 	"theme": {
-		"colorBrand": "#de4331",
+		"colorBrand": "#AF1EB9",
 		"colorPrimary": "#4E3F42",
 		"colorSecondary": "#7b888e",
 		"colorBrandSecondary": "#FCC841",
@@ -15,12 +15,11 @@
 		"colorArticle": "#ffffffcc"
 	},
 	"backgroundColors": [
-		"#FCC841",
-		"#DFEFFC",
-		"#DEDE92",
-		"#DE4331",
-		"#FE9750",
-		"#FCC841"
+		"#F60749",
+		"#A6F432",
+		"#A2A936",
+		"#36D1D1",
+		"#0753D4"
 	],
 	"artImages": [
 		{
