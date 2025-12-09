@@ -2,7 +2,7 @@
 	"meta": {
 		"title": "Dollar",
 		"description": "Record",
-		"username": "Dollar"
+		"username": "Dollar Wang"
 	},
 	"theme": {
 		"colorBrand": "#AF1EB9",
@@ -41,23 +41,16 @@
 	"currentBackgroundImageId": "",
 	"socialButtons": [
 		{
-			"id": "github",
-			"type": "github",
-			"value": "https://github.com/yysuni",
-			"label": "Github",
-			"order": 3
-		},
-		{
 			"id": "juejin",
-			"type": "juejin",
-			"value": "https://juejin.cn/user/2427311675422382",
-			"label": "稀土掘金",
+			"type": "github",
+			"value": "https://github.com/WangDollar",
+			"label": "Github",
 			"order": 2
 		},
 		{
 			"id": "email",
 			"type": "email",
-			"value": "yysuni1001@gmail.com",
+			"value": "wangdollardl@gmail.com",
 			"label": "",
 			"order": 1
 		}
