@@ -51,7 +51,7 @@ export default function MusicCard() {
 			</HomeDraggableLayer>
 
 			<DialogModal open={playing} onClose={() => setPlaying(false)} className='w-full max-w-3xl overflow-hidden rounded-2xl bg-black shadow-2xl'>
-				<div className='aspect-video w-full'>
+				<div className='aspect-video w-full [&_iframe]:h-full [&_iframe]:w-full'>
 					{currentMusic && typeof currentMusic.iframe === 'string' ? parse(currentMusic.iframe) : null}
 				</div>
 				<div className='bg-white p-4'>
